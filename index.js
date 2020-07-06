@@ -54,6 +54,6 @@ function reduceToAnyTrue(arr) {
     return true
   }
   else {
-    return false
+    return true
   }
 }
