@@ -43,17 +43,16 @@ function reduceToAllTrue(arr) {
   }
 }
 
-function reduceToAnyTrue(arr) {
-  let newArr = []
-  arr.forEach(element => {
-    if(!element) {
-      newArr.push(element)
-    };
-  });
-  if(newArr.length > 0) {
-    return false
-  }
-  else {
-    return true
-  }
-}
+function reduceToAnyTrue(arr){
+    let newArr = []
+     arr.forEach(element => {
+             if(!!element){
+                 newArr.push(element)
+             }
+         });
+     if(newArr.length > 0){
+         return true
+     }
+     else{
+         return false
+     }
