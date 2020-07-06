@@ -51,7 +51,7 @@ function reduceToAnyTrue(arr) {
     };
   });
   if(newArr.length > 0) {
-    return true
+    return false
   }
   else {
     return true
