@@ -8,4 +8,5 @@ function mapToNegativize(arr){
 function mapToNoChange(arr) {
   let newArr = []
   arr.forEach(element => newArr.push(element));
+  return newArr
 }
