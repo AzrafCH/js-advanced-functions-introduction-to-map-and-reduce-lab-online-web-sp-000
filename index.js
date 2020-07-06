@@ -50,7 +50,7 @@ function reduceToAnyTrue(arr) {
       newArr.push(element)
     };
   });
-  if(newArr.length < 0) {
+  if(newArr.length > 0) {
     return true
   }
   else {
