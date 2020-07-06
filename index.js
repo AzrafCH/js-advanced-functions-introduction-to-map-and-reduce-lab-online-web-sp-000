@@ -27,3 +27,18 @@ function reduceToTotal(arr, total = 0) {
   arr.forEach(element => total += element);
   return total
 }
+
+function reduceToAllTrue(arr) {
+  let newArr = []
+  arr.forEach(element => {
+    if(!element) {
+      newArr.push(element)
+    };
+  });
+  if(newArr.length > 0) {
+    return false
+  }
+  else {
+    return true
+  }
+}
