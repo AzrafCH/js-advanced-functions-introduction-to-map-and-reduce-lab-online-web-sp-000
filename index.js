@@ -18,7 +18,7 @@ function mapToDouble(arr) {
 }
 
 function mapToSquare(arr) {
-  let newArr = [] 
+  let newArr = []
   arr.forEach(element => newArr.push(element * element))
-  return newArr 
+  return newArr
 }
