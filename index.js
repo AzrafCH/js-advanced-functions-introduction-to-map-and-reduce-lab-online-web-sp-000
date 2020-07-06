@@ -36,9 +36,9 @@ function reduceToAllTrue(arr) {
     };
   });
   if(newArr.length > 0) {
-    return true
+    return false
   }
   else {
-    return false
-  };
+    return true
+  }
 }
