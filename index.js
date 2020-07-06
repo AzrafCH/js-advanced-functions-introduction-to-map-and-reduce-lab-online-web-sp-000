@@ -46,10 +46,10 @@ function reduceToAllTrue(arr) {
 function reduceToAnyTrue(arr){
     let newArr = []
      arr.forEach(element => {
-             if(!!element){
-                 newArr.push(element)
-             }
-         });
+      if(!!element){
+        newArr.push(element)
+        }
+      });
      if(newArr.length > 0){
          return true
      }
