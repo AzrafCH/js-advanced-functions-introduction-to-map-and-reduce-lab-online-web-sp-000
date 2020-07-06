@@ -24,6 +24,6 @@ function mapToSquare(arr) {
 }
 
 function reduceToTotal(arr, total = 0) {
-  arr.forEach(element => arr.push(element += total));
+  arr.forEach(element => total += element);
   return total
 }
